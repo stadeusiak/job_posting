@@ -11,7 +11,6 @@ import java.util.List;
 @RequestMapping("/postings")
 public class PostingController {
 
-    //Odpowiedzialny za tworzenie endpointów i komunikacji http
     private final PostingService postingService;
 
     public PostingController(PostingService postingService) {
